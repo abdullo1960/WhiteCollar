@@ -1,0 +1,2017 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-17 15:36+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\myproject\settings.py:126
+msgid "Uzbek"
+msgstr ""
+
+#: .\myproject\settings.py:127
+msgid "English"
+msgstr ""
+
+#: .\myproject\settings.py:128
+msgid "Russian"
+msgstr ""
+
+#: .\templates\about.html:58 .\templates\blog.html:57
+#: .\templates\contact.html:56 .\templates\home.html:61
+#: .\templates\our_services.html:56
+msgid "  Home "
+msgstr "Дом"
+
+#: .\templates\about.html:59 .\templates\about.html:77 .\templates\blog.html:58
+#: .\templates\contact.html:57 .\templates\home.html:62
+#: .\templates\our_services.html:57
+msgid "About Us"
+msgstr "О нас"
+
+#: .\templates\about.html:60 .\templates\blog.html:59
+#: .\templates\contact.html:58 .\templates\home.html:63
+#: .\templates\our_services.html:58
+msgid "Services"
+msgstr "Услуги"
+
+#: .\templates\about.html:61 .\templates\blog.html:60
+#: .\templates\contact.html:59 .\templates\home.html:64
+#: .\templates\our_services.html:59
+msgid "Blog"
+msgstr "Блог"
+
+#: .\templates\about.html:62 .\templates\blog.html:61
+#: .\templates\contact.html:60 .\templates\home.html:65
+#: .\templates\our_services.html:60
+msgid "Contacts"
+msgstr "Контакты"
+
+#: .\templates\about.html:63 .\templates\blog.html:62
+#: .\templates\contact.html:61 .\templates\home.html:66
+#: .\templates\our_services.html:61
+msgid "Price"
+msgstr "Цена"
+
+#: .\templates\about.html:64 .\templates\blog.html:63
+#: .\templates\contact.html:62 .\templates\home.html:67
+#: .\templates\our_services.html:62
+msgid "Get Consulting"
+msgstr "Получить консультацию"
+
+#: .\templates\about.html:78
+msgid "Know About Us"
+msgstr "Узнайте о нас"
+
+#: .\templates\about.html:79 .\templates\home.html:84
+#: .\templates\our_services.html:77
+msgid ""
+"Collaboratively administrate empowered markets plug <br>\n"
+"                    and play networks dynamically procrastinated "
+msgstr ""
+"Совместно администрировать уполномоченные рынки <br> plug-and-play сети "
+"динамически откладывались"
+
+#: .\templates\about.html:88
+msgid ""
+"We’re Ready To Grow Your <br>\n"
+"                Business With Us"
+msgstr "Мы готовы развивать вашбизнес вместе с нами"
+
+#: .\templates\about.html:90 .\templates\home.html:95
+msgid ""
+"Leverage agile frameworks to provide a robust <br> synopsis for high level "
+"overviews. thinking to <br> further the overall value proposition. "
+msgstr ""
+"Используйте гибкие фреймворки, чтобы обеспечить надежныйконспект для "
+"высокоуровневых обзоров. мышления длядальнейшего продвижения общего "
+"ценностного предложения."
+
+#: .\templates\about.html:91 .\templates\home.html:96 .\templates\home.html:214
+msgid "Get in Touch"
+msgstr "Свяжитесь с нами"
+
+#: .\templates\about.html:94 .\templates\home.html:99
+msgid "Welcome Whitecollar"
+msgstr "Добро пожаловать, Белый воротничок"
+
+#: .\templates\about.html:95
+msgid ""
+"We Care About Your <br>\n"
+"                    Business Plan."
+msgstr "Мы заботимся о вашембизнес- <br>\n плане."
+
+#: .\templates\about.html:97 .\templates\home.html:102
+msgid ""
+"Leverage agile frameworks to provide a robust synopsis for high level <br> "
+"overviews.Iterative approaches to corporate strategy foster collaborative "
+"<br> thinking to further the overal. "
+msgstr ""
+"Используйте гибкие фреймворки, чтобы обеспечить надежный синопсис для "
+"обзоров высокого уровня.Итеративныеподходы к корпоративной стратегии "
+"способствуют совместному мышлению для дальнейшего развития в целом."
+
+#: .\templates\about.html:99 .\templates\home.html:104
+msgid ""
+"Leverage agile frameworks to provide a robust synopsis for high level "
+"overviews.Iterative approaches to corporate strategy "
+msgstr ""
+"Используйте гибкие фреймворки для создания надежного синопсиса для обзоров "
+"высокого уровня. Итеративныеподходы к корпоративной стратегии"
+
+#: .\templates\about.html:104
+msgid "Our Vision"
+msgstr "Наше Видение"
+
+#: .\templates\about.html:105
+msgid ""
+"Capitalize on low hanging fruit to identify a ballpark value added <br> "
+"activity to beta clickthroughs."
+msgstr ""
+"Воспользуйтесь преимуществами простых решений, чтобы определить примерную "
+"ценностьдеятельности, добавляющей ценность для бета-кликов."
+
+#: .\templates\about.html:109
+msgid "Our Mision"
+msgstr "Наша миссия"
+
+#: .\templates\about.html:110
+msgid ""
+"Podcasting operational change management inside of workflows <br> to "
+"establish a framework."
+msgstr ""
+"Подкастинг оперативного управления изменениями внутри рабочих процессовдля "
+"создания структуры."
+
+#: .\templates\about.html:113 .\templates\home.html:124
+msgid "More About Us"
+msgstr "Подробнее о нас"
+
+#: .\templates\about.html:118
+msgid "Work Process"
+msgstr "Рабочий процесс"
+
+#: .\templates\about.html:119 .\templates\home.html:262
+#: .\templates\home.html:285
+msgid "How We Work"
+msgstr "Как мы работаем"
+
+#: .\templates\about.html:123 .\templates\about.html:131
+#: .\templates\about.html:139
+msgid "Make Appointment"
+msgstr "Назначить встречу"
+
+#: .\templates\about.html:124 .\templates\about.html:132
+#: .\templates\about.html:140
+msgid ""
+"Leverage agile frameworks provide <br>\n"
+"                            synopsishigh level overviews <br>\n"
+"                            value proposition. "
+msgstr ""
+"Используйте гибкие фреймворки, обеспечивающиесинтезыобзоры высокого "
+"уровняценностное предложение."
+
+#: .\templates\about.html:127 .\templates\about.html:135
+#: .\templates\about.html:143
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: .\templates\about.html:153
+msgid "Years of experience"
+msgstr "Многолетний опыт"
+
+#: .\templates\about.html:154 .\templates\about.html:161
+#: .\templates\about.html:168 .\templates\about.html:175
+msgid ""
+"Synopsishigh level overviews <br>\n"
+"            value proposition."
+msgstr "Синопсисобзоры высокого <br>\n уровняценностное предложение."
+
+#: .\templates\about.html:160
+msgid "Satisfied clients"
+msgstr "Довольные клиенты"
+
+#: .\templates\about.html:167
+msgid "IT problems solved"
+msgstr "ИТ-проблемы <br>\n решены"
+
+#: .\templates\about.html:174
+msgid "Pro team members"
+msgstr "Члены професси- <br>\n  ональной команды"
+
+#: .\templates\about.html:183
+msgid "Short Video"
+msgstr "Короткое видео"
+
+#: .\templates\about.html:184
+msgid "Our Presentation"
+msgstr "Наша презентация"
+
+#: .\templates\about.html:185
+msgid ""
+"Collaboratively administrate channels whereas virtual tailers <br>\n"
+"                        predominate procedures reliable supply chains."
+msgstr ""
+"Совместно администрируйте каналы, тогда как виртуальные <br> посредникидоминируют "
+"процедуры надежных цепочек поставок."
+
+#: .\templates\about.html:192
+msgid "Our Team"
+msgstr "Наша команда"
+
+#: .\templates\about.html:193
+msgid "Meet Our Experts"
+msgstr "Познакомьтесь с нашими экспертами"
+
+#: .\templates\about.html:197 .\templates\home.html:238
+#: .\templates\our_services.html:231
+msgid "Nattasha Kelvin"
+msgstr "Наташа Кельвин"
+
+#: .\templates\about.html:197
+msgid "Managing Director"
+msgstr "Управляющий"
+
+#: .\templates\about.html:201
+msgid "David\tSimpson"
+msgstr "Дэвид Симпсон"
+
+#: .\templates\about.html:201 .\templates\home.html:239
+#: .\templates\home.html:250 .\templates\our_services.html:232
+#: .\templates\our_services.html:243
+msgid "Designer"
+msgstr "Дизайнер"
+
+#: .\templates\about.html:205
+msgid "Madeleine\tGrant"
+msgstr "Мадлен Грант"
+
+#: .\templates\about.html:205
+msgid "Marketing Specialist"
+msgstr "Специалист по маркетингу"
+
+#: .\templates\about.html:214 .\templates\home.html:353
+msgid "Call Us <br> +01 569 896 654"
+msgstr "Позвоните нам+01 569 896 654"
+
+#: .\templates\about.html:217 .\templates\home.html:356
+msgid "Mail Us <br> Info@Example.com"
+msgstr "Напишите намInfo@Example.com"
+
+#: .\templates\about.html:219 .\templates\home.html:358
+msgid "Location<br> Amsterdam, 109-74"
+msgstr "МестоположениеАмстердам, 109-74"
+
+#: .\templates\about.html:222 .\templates\home.html:361
+msgid "Quick Link"
+msgstr "Быстрая ссылка"
+
+#: .\templates\about.html:224 .\templates\home.html:363
+#: .\templates\our_services.html:75
+msgid "Our Services"
+msgstr "Наши услуги"
+
+#: .\templates\about.html:226 .\templates\home.html:365
+msgid "Uitility Page"
+msgstr "Страница утилит"
+
+#: .\templates\about.html:229 .\templates\home.html:368
+msgid "Home <br> About Us <br> Blog <br>Services <br> Contact"
+msgstr "Главная <br> О нас <br> Блог <br> Услуги <br> Контакты"
+
+#: .\templates\about.html:231 .\templates\home.html:370
+msgid ""
+"Financial Consulting <br style=\"color: #40DDB6;\"> Business Management <br> "
+"Consultant & Programs <br>Company Management <br> Insurance & Finance"
+msgstr ""
+"Финансовый консалтинг <br style=\"color: #40DDB6;\"> Управление бизнесом "
+"<br> Консультант и программы <br>Управление компанией <br> Страхование и "
+"финансы"
+
+#: .\templates\about.html:233 .\templates\home.html:372
+msgid ""
+"Style Guide  <br style=\"color: #40DDB6;\"> Licenses <br> Instructions "
+"<br>Changelog <br> 404 Page"
+msgstr ""
+"Руководство по стилю <br style=\"color: #40DDB6;\"> Лицензии <br> Инструкции "
+"<br>Журнал изменений <br> Страница 404"
+
+#: .\templates\about.html:236 .\templates\about.html:238
+#: .\templates\home.html:375 .\templates\home.html:377
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: .\templates\about.html:237 .\templates\home.html:376
+msgid "Join Our Mailing List & to get our news."
+msgstr "Подпишитесь на нашу рассылку и получайте наши новости."
+
+#: .\templates\about.html:238 .\templates\home.html:377
+msgid "your email address"
+msgstr "Ваш электронный адрес"
+
+#: .\templates\about.html:245 .\templates\home.html:384
+msgid "Follow :"
+msgstr "Следовать :"
+
+#: .\templates\blog.html:76
+msgid "Recent News"
+msgstr "Последние новости"
+
+#: .\templates\blog.html:77
+msgid "We Keep You <br> Updated"
+msgstr "Мы держим вас в курсе"
+
+#: .\templates\blog.html:84 .\templates\home.html:231 .\templates\home.html:309
+#: .\templates\our_services.html:224
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: .\templates\blog.html:85 .\templates\home.html:220 .\templates\home.html:311
+msgid "Our Project"
+msgstr "Наш проект"
+
+#: .\templates\blog.html:96 .\templates\home.html:139 .\templates\home.html:145
+#: .\templates\home.html:151 .\templates\home.html:160
+#: .\templates\home.html:166 .\templates\home.html:178
+#: .\templates\home.html:323 .\templates\home.html:334
+#: .\templates\our_services.html:92 .\templates\our_services.html:98
+#: .\templates\our_services.html:104 .\templates\our_services.html:113
+#: .\templates\our_services.html:119 .\templates\our_services.html:125
+#: .\templates\our_services.html:133
+msgid "Read More"
+msgstr "Читать далее"
+
+#: .\templates\blog.html:100
+msgid "Next"
+msgstr "Следующий"
+
+#: .\templates\contact.html:75
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: .\templates\contact.html:76
+msgid "Feel Free Reach Us"
+msgstr "Не стесняйтесь обращаться к нам"
+
+#: .\templates\contact.html:83 .\templates\contact.html:99
+msgid "Let’s Talk"
+msgstr "Давайте поговорим"
+
+#: .\templates\contact.html:84 .\templates\contact.html:100
+msgid "Get in touch with us"
+msgstr "Свяжитесь с нами"
+
+#: .\templates\contact.html:85
+msgid ""
+"Completely synergize resource taxing relationships via premier niche <br> "
+"ynamically innovate state of the art customer service."
+msgstr ""
+"Полностью синергетические отношения в сфере налогообложения ресурсов через "
+"ведущую нишудинамически внедряйте инновации в современное обслуживание "
+"клиентов."
+
+#: .\templates\contact.html:87
+msgid "Have any question?<br> Free +01 569  896 654"
+msgstr "Есть вопросы?Бесплатно +01 569 896 654"
+
+#: .\templates\contact.html:92
+msgid ""
+"Visit anytime<br>King Street,\n"
+"                Prior Lake, New York"
+msgstr "Посетите в любое времяKing Street, Prior Lake, Нью-Йорк"
+
+#: .\templates\contact.html:106
+msgid "Submit"
+msgstr "Представлять на рассмотрение"
+
+#: .\templates\home.html:80
+msgid "Welcome to Whitecollar Solution"
+msgstr "Добро пожаловать в Whitecollar Solution"
+
+#: .\templates\home.html:81
+msgid ""
+"The Best Value <br>\n"
+"                    for <span style=\"color: #40DDB6;\">Business</span> and "
+"<br>\n"
+"                    Corporation"
+msgstr "Лучшее соотношение цены и качествадля бизнеса икорпорации"
+
+#: .\templates\home.html:93
+msgid ""
+"We’re Ready To Grow Your <br>\n"
+"                Business With Us "
+msgstr "Мы готовы развивать вашбизнес вместе с нами"
+
+#: .\templates\home.html:100
+msgid ""
+"We Care About Your <br>\n"
+"                    Business Plan. "
+msgstr "Мы заботимся о вашембизнес- <br>\n плане."
+
+#: .\templates\home.html:107
+msgid "Components of a Business Strategy"
+msgstr "Компоненты бизнес-стратегии"
+
+#: .\templates\home.html:110
+msgid "Business Consulting"
+msgstr "Бизнес-консалтинг"
+
+#: .\templates\home.html:115
+msgid "Experience"
+msgstr "Опыт"
+
+#: .\templates\home.html:116
+msgid "Leverage frameworks <br> toprovidee werment"
+msgstr "Используйте фреймворки <br> toprovidee werment"
+
+#: .\templates\home.html:120
+msgid "Awards Winner"
+msgstr "Победитель премии"
+
+#: .\templates\home.html:121
+msgid "Leverage frameworks <br> toprovidee werment."
+msgstr "Используйте фреймворкидля обеспечения поддержки."
+
+#: .\templates\home.html:131 .\templates\our_services.html:84
+msgid "We Are Expertise In"
+msgstr "Мы являемся экспертами в"
+
+#: .\templates\home.html:132 .\templates\our_services.html:85
+msgid ""
+"We Provide Professional <br>\n"
+"            Business Solutions."
+msgstr "Мы предоставляем профессиональные <br>\n бизнес-решения."
+
+#: .\templates\home.html:137
+msgid ""
+"Financial <br>\n"
+"                Consultancy"
+msgstr ""
+
+#: .\templates\home.html:143
+msgid ""
+"Business<br>\n"
+"                Management"
+msgstr ""
+
+#: .\templates\home.html:149
+msgid ""
+"Consultants & <br>\n"
+"                program"
+msgstr ""
+
+#: .\templates\home.html:158 .\templates\home.html:164
+msgid ""
+"Company <br>\n"
+"                Management"
+msgstr ""
+
+#: .\templates\home.html:171
+msgid "More Services"
+msgstr "Дополнительные услуги"
+
+#: .\templates\home.html:177
+#, python-format
+msgid "%(obj.title)s"
+msgstr ""
+
+#: .\templates\home.html:185
+msgid "Why Choose Me"
+msgstr "Почему стоит выбрать меня?"
+
+#: .\templates\home.html:186
+msgid ""
+"We Provide Solutions To <br>\n"
+"                Grow Your Business"
+msgstr "Мы предлагаем решения для развития вашего бизнеса"
+
+#: .\templates\home.html:188
+msgid ""
+"Leverage agile frameworks to provide a robust synopsis for high <br> level "
+"overviews. thinking to further the overall proposition. "
+msgstr ""
+"Используйте гибкие фреймворки, чтобы обеспечить надежный синопсис для "
+"высокоуровневых обзоров. мышлениядля дальнейшего продвижения общего "
+"предложения."
+
+#: .\templates\home.html:192 .\templates\our_services.html:212
+msgid "Clients"
+msgstr "Клиенты"
+
+#: .\templates\home.html:193
+msgid "Quick Response"
+msgstr "Быстрый ответ"
+
+#: .\templates\home.html:197 .\templates\our_services.html:217
+msgid "Project"
+msgstr "Проект"
+
+#: .\templates\home.html:198
+msgid "Finished Jobs"
+msgstr "Завершенные работы"
+
+#: .\templates\home.html:203
+msgid "2800+ Active clients"
+msgstr "2800+ активных клиентов"
+
+#: .\templates\home.html:207 .\templates\our_services.html:204
+msgid "1,670+ <span style=\"color: #FFB342;\">5 ⭐ stars</span> reviews"
+msgstr "1,670+ 5 ⭐ звезд отзывов"
+
+#: .\templates\home.html:221
+msgid "You can check our projects "
+msgstr "Вы можете ознакомиться с нашими проектами"
+
+#: .\templates\home.html:222
+msgid "More Work"
+msgstr "Больше работы"
+
+#: .\templates\home.html:232
+msgid ""
+"What Our <br>\n"
+"            Client Say’s"
+msgstr "Что говорят нашиклиенты"
+
+#: .\templates\home.html:234 .\templates\our_services.html:227
+msgid ""
+"Leverage agile frameworks to provide <br> a robust synopsis for high level "
+"<br> overviews.Iterative "
+msgstr ""
+"Используйте гибкие фреймворки, <br> чтобы обеспечитьнадежный синопсис для <br>"
+"высокоуровневыхобзоров. Итеративный"
+
+#: .\templates\home.html:245
+msgid ""
+" “ dd an excerpt from your <br> personal biography, or simply <br> let the "
+"world know who you are <br> and what you have to offer. <br> Connect with "
+"your site visitor’s <br> on a personal level and make <br> sure that your "
+"site."
+msgstr ""
+"«Добавьте отрывок извашей личной биографии или простодайте миру знать, кто "
+"выи что вы можете предложить.Общайтесь с посетителямивашего сайта на личном "
+"уровне и убедитесь,что ваш сайт."
+
+#: .\templates\home.html:249 .\templates\our_services.html:242
+msgid "Cincinnati"
+msgstr "Цинциннати"
+
+#: .\templates\home.html:256 .\templates\our_services.html:249
+msgid ""
+"“ Leverage agile frameworks to <br> provide a robust synopsis for <br> high "
+"level overviews ”"
+msgstr ""
+"«Используйте гибкие фреймворки, чтобыобеспечить надежный синопсис дляобзоров "
+"высокого уровня»"
+
+#: .\templates\home.html:263
+msgid ""
+"To Get Your Business <br>\n"
+"                    To The Next Level"
+msgstr "Чтобы вывести свой бизнесна новый уровень"
+
+#: .\templates\home.html:265 .\templates\home.html:343
+msgid ""
+"Leverage agile frameworks to provide a robust synopsis for high level <br> "
+"overviews.Iterative approaches to corporate strategy foster collaborative "
+"<br> thinkingfurther the overal."
+msgstr ""
+"Используйте гибкие фреймворки, чтобы обеспечить надежный синопсис для <br>"
+"обзоров высокого уровня.Итеративныеподходы к корпоративной стратегии <br>"
+"способствуют совместному мышлению, способствующему общему развитию."
+
+#: .\templates\home.html:267
+msgid "562+ <br> <span style=\"font-size: 12px;\">Project"
+msgstr "562+Проект"
+
+#: .\templates\home.html:268
+msgid ""
+"We have 50+ years of <br> experience. We offer <br> \n"
+"                            whitecollar services to you"
+msgstr "У нас более 50 летопыта. Мы предлагаемвам услуги «белых воротничков»"
+
+#: .\templates\home.html:272
+msgid "Planning"
+msgstr "Планирование"
+
+#: .\templates\home.html:274 .\templates\home.html:278
+#: .\templates\home.html:282
+msgid ""
+"Leverage agile frameworks to provide synopsis for high <br> level overviews."
+msgstr ""
+"Используйте гибкие фреймворки, чтобы обеспечить надежный синопсис для <br> "
+"обзоров высокого уровня.Итеративныеподходы к корпоративной стратегии  <br>"
+"способствуют совместному мышлению, способствующему общему развитию."
+
+#: .\templates\home.html:286
+msgid "To Get Your Business "
+msgstr "Чтобы получить ваш бизнес"
+
+#: .\templates\home.html:299
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: .\templates\home.html:306
+msgid "Our Expert Team"
+msgstr "Наша команда экспертов"
+
+#: .\templates\home.html:312
+msgid " News"
+msgstr "Новости"
+
+#: .\templates\home.html:317 .\templates\home.html:328
+msgid "April 13/ 2021"
+msgstr "13 апреля 2021 г."
+
+#: .\templates\home.html:318 .\templates\home.html:329
+msgid "Miranda Doe"
+msgstr "Миранда Доу"
+
+#: .\templates\home.html:319 .\templates\home.html:330
+msgid " Business"
+msgstr "Бизнес"
+
+#: .\templates\home.html:321
+msgid " A Business Consulting That Can <br> Produce"
+msgstr "Бизнес-консалтинг, <br> который можетпроизводить"
+
+#: .\templates\home.html:322
+msgid ""
+" Leverage agile frameworks to provide a robust synopsis for high <br>  level "
+"overviews.Iterative approaches to corporate strategy foster <br> "
+"collaborative thinking."
+msgstr ""
+"Используйте гибкие фреймворки, чтобы обеспечить надежный синопсис для <br> "
+"высокоуровневых обзоров.Итеративныеподходы к корпоративной стратегии  <br>"
+"способствуют совместному мышлению."
+
+#: .\templates\home.html:332
+msgid "Team Identifiers, Benefits, and How <br> to Build One that Works"
+msgstr ""
+"Идентификаторы команды,<br> преимущества  и как создать ту,  <br> которая работает"
+
+#: .\templates\home.html:333
+msgid ""
+"Leverage agile frameworks to provide a robust synopsis for high <br>  level "
+"overviews.Iterative approaches to corporate strategy foster <br> "
+"collaborative thinking."
+msgstr ""
+"Используйте гибкие фреймворки, чтобы обеспечить надежный синопсис для  <br>"
+"высокоуровневых обзоров.Итеративныеподходы к корпоративной стратегии  <br>"
+"способствуют совместному мышлению."
+
+#: .\templates\home.html:340
+msgid ""
+"Subscribe Whitecollar</p> \n"
+"                <h1>Need An Experienced  "
+msgstr "Подписаться Белый воротничок <br> Нужен опытный"
+
+#: .\templates\home.html:342
+msgid "Whitecollar</span> job Service? Contact Us "
+msgstr "Работа <<Белый воротничок?>> Свяжитесь с нами"
+
+#: .\templates\our_services.html:76
+msgid "We’re Offering"
+msgstr "Мы предлагаем"
+
+#: .\templates\our_services.html:142 .\templates\our_services.html:180
+msgid "What we’re offering"
+msgstr "Что мы предлагаем"
+
+#: .\templates\our_services.html:143 .\templates\our_services.html:181
+msgid ""
+"Services we’re providing <br>\n"
+"            to our customers"
+msgstr "Услуги, которые мы <br> предоставляемнашим клиентам"
+
+#: .\templates\our_services.html:145 .\templates\our_services.html:183
+msgid ""
+"Completely synergize resource taxing relationships via premier niche <br> "
+"markets. Professionally cultivate one-to-one customer service with <br> "
+"service for state of the art customer service."
+msgstr ""
+"Полностью синергизируй отношения налогообложения ресурсов через <br> нишевые "
+"рынки. Профессионально развивайиндивидуальное <br> обслуживание  клиентов с "
+"помощьюсервиса для обслуживания клиентов на самом современном уровне."
+
+#: .\templates\our_services.html:150
+msgid ""
+"Product <br>    \n"
+"                            development"
+msgstr "разработка <br> продукта"
+
+#: .\templates\our_services.html:152 .\templates\our_services.html:159
+#: .\templates\our_services.html:166 .\templates\our_services.html:173
+msgid ""
+"level overviews <br>\n"
+"                            proposition. "
+msgstr "уровень обзоров предложение."
+
+#: .\templates\our_services.html:157
+msgid ""
+"UI/UX <br>  \n"
+"                            designing"
+msgstr "UI/UX <br> проектирование"
+
+#: .\templates\our_services.html:164
+msgid ""
+"Data <br>\n"
+"                            analysis"
+msgstr "Анализданных"
+
+#: .\templates\our_services.html:171
+#, fuzzy
+#| msgid ""
+#| "Data <br>\n"
+#| "                            analysis"
+msgid ""
+"Content <br>\n"
+"                            management"
+msgstr "Анализданных"
+
+#: .\templates\our_services.html:186 .\templates\our_services.html:192
+msgid "2,800+ Active clients"
+msgstr "2800+ активных клиентов"
+
+#: .\templates\our_services.html:187 .\templates\our_services.html:193
+#: .\templates\our_services.html:199 .\templates\our_services.html:205
+msgid ""
+"provide a robust synopsis for <br>\n"
+"                    high level overviews."
+msgstr "предоставить надежный синопсис <br> дляобзоров высокого уровня."
+
+#: .\templates\our_services.html:198
+msgid "106+ Team members+"
+msgstr "106+ членов команды+"
+
+#: .\templates\our_services.html:208
+msgid "Appointment"
+msgstr "Встреча"
+
+#: .\templates\our_services.html:213 .\templates\our_services.html:218
+msgid "Objectively products whereas parallel <br> platforms procedures"
+msgstr "Объективно продукты, тогда как параллельныеплатформы процедуры"
+
+#: .\templates\our_services.html:225
+msgid ""
+"What Our <br>\n"
+"        Client Say’s"
+msgstr "Что говорят наши клиенты"
+
+#: .\templates\our_services.html:238
+msgid ""
+"“ dd an excerpt from your <br> personal biography, or simply <br> let the "
+"world know who you are <br> and what you have to offer. <br> Connect with "
+"your site visitor’s <br> on a personal level and make <br> sure that your "
+"site."
+msgstr ""
+"«Добавьте отрывок извашей личной биографии или простодайте миру знать, кто "
+"выи что вы можете предложить.Общайтесь с посетителямивашего сайта на личном "
+"уровне и убедитесь,что ваш сайт."
+
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:16
+msgid "Messages"
+msgstr "Сообщения"
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr "Карты сайта"
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr "Статические файлы"
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr "Синдикация"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\venv\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:32
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:33
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:34
+msgid "That page contains no results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:152
+#: .\venv\Lib\site-packages\django\forms\fields.py:768
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:213
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:224
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:307
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:315
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:327
+#: .\venv\Lib\site-packages\django\core\validators.py:336
+#: .\venv\Lib\site-packages\django\core\validators.py:350
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2215
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:329
+msgid "IPv4"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:338
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:30
+msgid "IPv6"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:352
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:393
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:399
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:434
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:443
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:452
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:459
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:509
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:532
+#: .\venv\Lib\site-packages\django\forms\fields.py:359
+#: .\venv\Lib\site-packages\django\forms\fields.py:398
+msgid "Enter a number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:534
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:539
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:544
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:615
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:677
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1571
+#: .\venv\Lib\site-packages\django\forms\models.py:908
+msgid "and"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1573
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\constraints.py:22
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1156
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1157
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1159
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1209
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1211
+msgid "String (unlimited)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1320
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1421
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1425
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1560
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1429
+msgid "Date (without time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1556
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1564
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1569
+msgid "Date (with time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1696
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1698
+msgid "Decimal number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1859
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1863
+msgid "Duration"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1915
+msgid "Email address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1940
+msgid "File path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2018
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2020
+msgid "Floating point number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2060
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2062
+msgid "Integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2158
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2175
+msgid "Small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2183
+msgid "IPv4 address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2214
+msgid "IP address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2305
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2306
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2308
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2359
+msgid "Positive big integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2374
+msgid "Positive integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2389
+msgid "Positive small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2405
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2441
+msgid "Text"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2521
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2525
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2529
+msgid "Time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2637
+msgid "URL"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2661
+msgid "Raw binary data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2726
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2728
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:244
+msgid "File"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:420
+msgid "Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:932
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:934
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1228
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1285
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1287
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1335
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:185
+msgid ":?.!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:95
+msgid "This field is required."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:308
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:479
+#: .\venv\Lib\site-packages\django\forms\fields.py:1260
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:502
+#: .\venv\Lib\site-packages\django\forms\fields.py:1261
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:529
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:563
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:564
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:633
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:634
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:635
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:637
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:642
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:710
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:882
+#: .\venv\Lib\site-packages\django\forms\fields.py:968
+#: .\venv\Lib\site-packages\django\forms\models.py:1592
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:970
+#: .\venv\Lib\site-packages\django\forms\fields.py:1089
+#: .\venv\Lib\site-packages\django\forms\models.py:1590
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1090
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1329
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1359
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:94
+msgid ":"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:230
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:484
+#: .\venv\Lib\site-packages\django\forms\formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:901
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:906
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:913
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:922
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1359
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1450
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1594
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:227
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:461
+msgid "Clear"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:462
+msgid "Currently"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:463
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:800
+msgid "Unknown"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:801
+msgid "Yes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:802
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:873
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:903
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:920
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:922
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:924
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:926
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:928
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:930
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:25
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:26
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:27
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:28
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:29
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:30
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:35
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:36
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:43
+msgid "may"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+msgid "oct"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:75
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:286
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:305
+#: .\venv\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:64
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:115
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:349
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:68
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:8
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\venv\Lib\site-packages\modeltranslation\widgets.py:32
+msgid "None"
+msgstr ""
+
+#~ msgid ""
+#~ "Content <br>\n"
+#~ "management"
+#~ msgstr "управлениеконтентом"

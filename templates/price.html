@@ -1,0 +1,183 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    {% include 'message.html' %}
+    <div style=" background: #3a3a3a; color: aliceblue;" class="head">
+        <div style="display: flex;" class="container">
+                <svg style="width: 20px; margin-left: 20px; color:aquamarine;"  data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"></path>
+                </svg><p style="margin-top: 15px;">24 Olive Street, Prairie, NY 53590</p>
+                
+                <svg style="width: 20px; margin-left: 50px; color:aquamarine;" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"></path>
+                </svg><p style=" margin-right: 50px;margin-top: 15px;">whitecollar@gmail.com</p>
+                
+                <svg style="width: 20px; margin-left: 200px; color:aquamarine;" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                </svg><p style="margin-top: 15px;">Mon - Fri: 8:00 am - 5:00 pm</p>
+              
+              <i style="width: 20px; margin-top: 19px; margin-left: 20px;" class="fa-brands fa-instagram"></i>
+              <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-facebook"></i>
+              <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-twitter"></i>
+              <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-pinterest"></i>
+             
+
+              <form style="margin-top: 12px; margin-left: 20px; " action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                <input name="next" type="hidden" value="{{ redirect_to }}">
+                <select name="language">
+                    {% get_current_language as LANGUAGE_CODE %}
+                    {% get_available_languages as LANGUAGES %}
+                    {% get_language_info_list for LANGUAGES as languages %}
+                    {% for language in languages %}
+                        <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                            {{ language.name_local }} ({{ language.code }})
+                        </option>
+                    {% endfor %}
+                </select>
+                <input type="submit" value="Go">
+            </form>
+        </div>
+    </div>
+    <div style="margin-bottom: 20px;" class="header">
+        <div class="menu">
+            <div class="container">
+                <div style="display: flex; margin-left: 100px;" class=" header">
+                    <h2 style="margin-top: 35px;"><a style="color: #000000;" href="home.html">WhiteCo<span style="color: #6B77E5;">ll</span>ar</a></h2>
+                    <div style="margin-top: 50px;  margin-left: 300px;" class="nav">
+                        <ul style="display: flex; gap: 20px;">
+                            <li class=""><a href="{% url 'myapp:home' %}" style="text-decoration: none; color: #000; list-style-type: none;">{% blocktrans %}  Home {% endblocktrans %} </a></li>
+                            <li class=""><a href="{% url 'myapp:about' %}" style="text-decoration: none; color: #000;">{% blocktrans %}About Us{% endblocktrans %}</a></li>
+                            <li class=""><a href="{% url 'myapp:services' %}" style="text-decoration: none; color: #000;">{% blocktrans %}Services{% endblocktrans %}</a></li>
+                            <li class=""><a href="{% url 'myapp:blog' %}" style="text-decoration: none; color: #000;">{% blocktrans %}Blog{% endblocktrans %}</a></li>
+                            <li class=""><a href="{% url 'myapp:contact' %}" style="text-decoration: none; color: #000;">{% blocktrans %}Contacts{% endblocktrans %}</a></li>
+                            <li class=""><a href="{% url 'myapp:price' %}" style="text-decoration: none; color: #000;">{% blocktrans %}Price{% endblocktrans %}</a></li>
+                            <button style="background: #6B77E5; border: none; padding: 15px; margin-top: -15px;">{% blocktrans %}Get Consulting{% endblocktrans %}</button>
+
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+        </div>  
+    </div>
+    <div class="main">
+        <div style="display: flex;" class="container">
+            <div style="background: #37393FE8; color: aliceblue; min-width: 500px; padding: 100px; margin-left: -115px;" class="box">
+                <p style="margin-left: 20px;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #40DDB6;"></button>{% blocktrans %}Pricing Package{% endblocktrans %}</p> 
+                <h2 style="font-size: 35px; margin-left: 10px;" >{% blocktrans %}Affordable Plans <br> For Customers{% endblocktrans %}</h2>
+            </div>
+            <img style="width: 1305px; object-fit: cover; margin-left: -285px;" src="{% static 'img/photos/Image.png' %}" alt="">
+        </div>
+    </div>
+    <div  class="body">
+        <p style="margin-left: 20px; text-align: center; margin-top: 170px;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #40DDB6;"></button>{% blocktrans %}Simple Pricing Option{% endblocktrans %}</p> 
+        <h1 style="text-align: center; font-size: 40px;">{% blocktrans %}Choose the Right Plan for Your <br> and Your Team{% endblocktrans %}</h1>
+        
+        <div style="display: flex; margin-left: 150px; gap: 30px;margin-top: 100px;" class="boxx">
+            <div style="width: 386px; background: #F4F4F4; padding: 20px;" class="box">
+                <h1 style="border-bottom: 1px solid #D3D3D3; width: 300px; text-align: center; margin-left: 38px; ">{% blocktrans %}Basic{% endblocktrans %}</h1>
+                <h1 style="text-align: center;"><span style="font-size: 50px;">{% blocktrans %}$7.99</span> / month{% endblocktrans %}</h1>
+                <button style="margin-bottom: 20px; margin-left: 25px; background-color: #40DDB6; border: none; width: 300px; padding: 20px; font-size: 18px;">{% blocktrans %}Billed as $96 per year{% endblocktrans %}</button>
+                <p style="border-bottom: 1px solid #D3D3D3; width: 350px;text-align: center;" ></p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Unlimited members{% endblocktrans %}</p>
+                <p  style="color: #7D7D7D; text-align: center;"><span style="color: black;">{% blocktrans %}Unlimited</span> feedback{% endblocktrans %}</p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Weekly team Feedback Friday{% endblocktrans %}</p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Custom Kudos <span style="color: black;">+9 illustration{% endblocktrans %}</span></p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Team feedback history (30 items){% endblocktrans %}</p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Personal feedback{% endblocktrans %} </p>
+                <button style="background: #6B77E5; border: none; padding: 15px; margin-left: 120px;">{% blocktrans %}Get Started{% endblocktrans %}</button>
+            </div>
+            <div style="width: 386px; background: #6B77E5; padding: 10px; margin-top: -50px;" class="box">
+                <button style="background-color: #40DDB6; width: 386px; height: 50px; border: none; margin-left: -10px;margin-top: -100px;">{% blocktrans %}Most Popular{% endblocktrans %}</button>
+                <h1 style="border-bottom: 1px solid #D3D3D3; width: 300px; text-align: center; margin-left: 38px; color: #ffffff;">{% blocktrans %}Advanced{% endblocktrans %}</h1>
+                <h1 style="text-align: center; color: #ffffff;"><span style="font-size: 50px;">{% blocktrans %}$9.99</span> / month{% endblocktrans %}</h1>
+                <button style="margin-bottom: 20px; margin-left: 35px; background-color: #ffffff; border: none; width: 300px; padding: 20px; font-size: 18px; color: #6B77E5;">{% blocktrans %}Billed as $199 per year{% endblocktrans %}</button>
+                <p style="border-bottom: 1px solid #D3D3D3; width: 350px; margin-left: 8px; text-align: center;" ></p>
+                <p style="color: #ffffff; text-align: center;">{% blocktrans %}Unlimited members{% endblocktrans %}</p>
+                <p  style="color: #ffffff; text-align:   center;"><span style="color: #40DDB6;">{% blocktrans %}Unlimited</span> feedback{% endblocktrans %}</p>
+                <p style="color: #ffffff; text-align: center;">{% blocktrans %}Weekly team Feedback Friday{% endblocktrans %}</p>
+                <p style="color: #ffffff; text-align: center;">{% blocktrans %}Custom Kudos <span style="color: #40DDB6;">+9 illustration{% endblocktrans %}</span></p>
+                <p style="color: #ffffff; text-align: center;">{% blocktrans %}Team feedback history (30 items){% endblocktrans %}</p>
+                <p style="color: #ffffff; text-align: center;">{% blocktrans %}Personal feedback history (6 items){% endblocktrans %}</p>
+                <p style="color: #ffffff; text-align: center;">{% blocktrans %}Slack integration{% endblocktrans %}</p>
+                <button style="background: #ffffff; border: none; padding: 15px; margin-left: 130px; color: #6B77E5;margin-bottom: 50px;">{% blocktrans %}Get Started{% endblocktrans %}</button>
+            </div>
+            <div style="width: 386px; background: #F4F4F4; padding: 10px;" class="box">
+                <h1 style="border-bottom: 1px solid #D3D3D3; width: 300px; text-align: center; margin-left: 38px; ">Pro</h1>
+                <h1 style="text-align: center;"><span style="font-size: 50px;">{% blocktrans %}$9.99</span> / month{% endblocktrans %}</h1>
+                <button style="margin-bottom: 20px; margin-left: 35px; background-color: #40DDB6; border: none; width: 300px; padding: 20px; font-size: 18px;">{% blocktrans %}Billed as $199 per year{% endblocktrans %}</button>
+                <p style="border-bottom: 1px solid #D3D3D3; width: 350px; margin-left: 8px; text-align: center;" ></p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Unlimited members{% endblocktrans %}</p>
+                <p  style="color: #7D7D7D; text-align: center;"><span style="color: black;">{% blocktrans %}Unlimited</span> feedback{% endblocktrans %}</p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Weekly team Feedback Friday{% endblocktrans %}</p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Custom Kudos <span style="color: black;">+9 illustration{% endblocktrans %}</span></p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Team feedback history (30 items){% endblocktrans %}</p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Personal feedback history (6 items){% endblocktrans %}</p>
+                <p style="color: #7D7D7D; text-align: center;">{% blocktrans %}Slack integration{% endblocktrans %}</p>   
+                <button style="background: #6B77E5; border: none; padding: 15px; margin-left: 130px;">{% blocktrans %}Get Started{% endblocktrans %}</button>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 150px; background: #37393F;" class="footer">
+        <div>
+            <div style="border: 1px solid #6C6D72;" class="div">
+                <div style="display: flex; padding: 100px;" class="first">
+                    <h2 style="margin-top: 30px; color: #FFFFFF; margin-left: -30px; ">WhiteCo<span style="color: #40DDB6;">ll</span>ar</h2>
+                    {% for data in datas %}
+                    <button style="background: #4C4D52; width: 68px; height: 68px; border-radius: 50px; border: none;margin-left: 70px;"><i style="color: #40DDB6; font-size: 20px;" class="fa-solid fa-phone"></i></button><p style="color: #FFFFFF; margin-top: 15px; width: 100px;">{% blocktrans %}Call Us{% endblocktrans %}</p><p style="color: #FFFFFF; margin-top: 30px;margin-left: -90px;">{{ data.text }}</p>
+                    {% endfor %}
+                    
+                    {% for email in emails %}
+                    <button style="background: #4C4D52; width: 68px; height: 68px; border-radius: 50px; border: none;margin-left: 200px;"><i style="color: #40DDB6; font-size: 20px;" class="fa-regular fa-envelope"></i></button><p style="color: #FFFFFF; margin-top: 15px; width: 100px;">{% blocktrans %}Mail Us{% endblocktrans %}</p><p style="color: #FFFFFF; margin-top: 30px; margin-left: -90px;">{{ email.email }}</p>
+                    {% endfor %}
+                    
+                    {% for location in locations %}
+                    <button style="background: #4C4D52; width: 68px; height: 68px; border-radius: 50px; border: none;margin-left: 200px;"><i style="color: #40DDB6; font-size: 20px;" class="fa-solid fa-location-dot"></i></button><p style="color: #FFFFFF; margin-top: 10px; width: 100px;">{% blocktrans %}Location{% endblocktrans %}</p><p style="color: #FFFFFF; margin-top: 30px; margin-left: -90px; width: 200px;">{{ location.location }}</p>
+                    {% endfor %}
+                </div>
+                <div style="display: flex;" class="second">
+                    <p style="margin-left: 150px; margin-top: 15px; color: #40DDB6;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #6B77E5; border: none;"></button>{% blocktrans %}Quick Link{% endblocktrans %}</p>
+                    
+                    <p style="margin-left: 200px; margin-top: 15px; color: #40DDB6;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #6B77E5; border: none;"></button>{% blocktrans %}Our Services{% endblocktrans %}</p>
+                    
+                    <p style="margin-left: 200px; margin-top: 15px; color: #40DDB6;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #6B77E5; border: none;"></button>{% blocktrans %}Uitility Page{% endblocktrans %}</p>
+                </div>
+                <div  style="margin-left: 150px; display: flex;">
+                    <a style="color: #FFFFFF;">{% blocktrans %}Home <br> About Us <br> Blog <br>Services <br> Contact{% endblocktrans %}</a> 
+                    
+                    <a style="color: #FFFFFF; margin-left: 230px;">{% blocktrans %}Financial Consulting <br style="color: #40DDB6;"> Business Management <br> Consultant & Programs <br>Company Management <br> Insurance & Finance{% endblocktrans %}</a>
+                     
+                    <a style="color: #FFFFFF; margin-left: 150px;">{% blocktrans %}Style Guide  <br style="color: #40DDB6;"> Licenses <br> Instructions <br>Changelog <br> 404 Page{% endblocktrans %}</a> 
+                    
+                    <form method="POST">
+                        <div  style="background: #474950; margin-left: 110px; width:  479px; height: 235px; margin-bottom: 50px; margin-top: -80px;" class="box">
+                            {% csrf_token %}
+                            <h1 style="color: #FFFFFF; margin-left: 30px;" >{% blocktrans %}Subscribe{% endblocktrans %}</h1>
+                            <p style="color: #FFFFFF; margin-left: 30px;">{% blocktrans %}Join Our Mailing List & to get our news.{% endblocktrans %}</p>
+                            <input style="padding: 20px; width: 300px; margin-left: 20px; margin-top: 20px;" type="email" name="email" placeholder="your email address"><button style="width: 143px; height: 65px; color: #ffffff; background: #6B77E5; " type="submit">{% blocktrans %}Subscribe{% endblocktrans %}</button>
+                        </div>
+                    </form>
+                    </div>
+            </div>
+                <div style="display: flex;" class="third">
+                    <p style="margin-left: 150px; color: #FFFFFF;">Copyright © WhiteCollar | Designed by VictorFlow Templates - Powered by Webflow</p>
+                    
+                    <p style="margin-left: 500px; color: #FFFFFF; margin-top: -10px;">{% blocktrans %}Follow :{% endblocktrans %}<i style="width: 20px; margin-top: 19px; margin-left: 20px;" class="fa-brands fa-instagram"></i>
+                        <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-facebook"></i>
+                        <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-twitter"></i>
+                        <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-pinterest"></i></p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,296 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    {% include 'message.html' %}
+    <div style=" background: #3a3a3a; color: aliceblue;" class="head">
+        <div style="display: flex;" class="container">
+                <svg style="width: 20px; margin-left: 20px; color:aquamarine;"  data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"></path>
+                </svg><p style="margin-top: 15px;">24 Olive Street, Prairie, NY 53590</p>
+                
+                <svg style="width: 20px; margin-left: 50px; color:aquamarine;" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"></path>
+                </svg><p style=" margin-right: 50px;margin-top: 15px;">whitecollar@gmail.com</p>
+                
+                <svg style="width: 20px; margin-left: 200px; color:aquamarine;" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                </svg><p style="margin-top: 15px;">Mon - Fri: 8:00 am - 5:00 pm</p>
+              
+              <i style="width: 20px; margin-top: 19px; margin-left: 20px;" class="fa-brands fa-instagram"></i>
+              <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-facebook"></i>
+              <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-twitter"></i>
+              <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-pinterest"></i>
+             
+
+              <form style="margin-top: 12px; margin-left: 20px; " action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                <input name="next" type="hidden" value="{{ redirect_to }}">
+                <select name="language">
+                    {% get_current_language as LANGUAGE_CODE %}
+                    {% get_available_languages as LANGUAGES %}
+                    {% get_language_info_list for LANGUAGES as languages %}
+                    {% for language in languages %}
+                        <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                            {{ language.name_local }} ({{ language.code }})
+                        </option>
+                    {% endfor %}
+                </select>
+                <input type="submit" value="Go">
+            </form>
+        </div>
+    </div>
+    <div style="margin-bottom: 20px;" class="header">
+        <div class="menu">
+            <div class="container">
+                <div style="display: flex; margin-left: 100px;" class=" header">
+                    <h2 style="margin-top: 35px;"><a style="color: #000000;" href="home.html">WhiteCo<span style="color: #6B77E5;">ll</span>ar</a></h2>
+                    <div style="margin-top: 50px;  margin-left: 300px;" class="nav">
+                        <ul style="display: flex; gap: 20px;">
+                            <li class=""><a href="{% url 'myapp:home' %}" style="text-decoration: none; color: #000; list-style-type: none;">{% blocktrans %}  Home {% endblocktrans %} </a></li>
+                            <li class=""><a href="{% url 'myapp:about' %}" style="text-decoration: none; color: #000;">{% blocktrans %}About Us{% endblocktrans %}</a></li>
+                            <li class=""><a href="{% url 'myapp:services' %}" style="text-decoration: none; color: #000;">{% blocktrans %}Services{% endblocktrans %}</a></li>
+                            <li class=""><a href="{% url 'myapp:blog' %}" style="text-decoration: none; color: #000;">{% blocktrans %}Blog{% endblocktrans %}</a></li>
+                            <li class=""><a href="{% url 'myapp:contact' %}" style="text-decoration: none; color: #000;">{% blocktrans %}Contacts{% endblocktrans %}</a></li>
+                            <li class=""><a href="{% url 'myapp:price' %}" style="text-decoration: none; color: #000;">{% blocktrans %}Price{% endblocktrans %}</a></li>
+                            <button style="background: #6B77E5; border: none; padding: 15px; margin-top: -15px;">{% blocktrans %}Get Consulting{% endblocktrans %}</button>
+
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+        </div>  
+    </div>
+    <div class="main">
+        <div style="display: flex;" class="container">
+            <div style="background: #37393FE8; color: aliceblue; width: 525px; padding: 100px; margin-left: -120px;" class="box">
+                <p style="margin-left: 20px; "><button style="width: 11px; height: 15px; margin-right: 5px; background: #40DDB6;"></button>{% blocktrans %}Our Services{% endblocktrans %}</p> 
+                <h1 style="font-size: 40px; margin-left: 10px;" >{% blocktrans %}We’re Offering{% endblocktrans %}</h1>
+                <p style="color: #B9B9B9; width: 500px; font-size: 13px;" >{% blocktrans %}Collaboratively administrate empowered markets plug <br>
+                    and play networks dynamically procrastinated {% endblocktrans %}</p>
+            </div>
+            <img style="width: 1000px; height: 458px; object-fit: cover; " src="{% static 'img/photos/Image (3).png' %}" alt="">
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 100px;" class="server">
+        <p style="margin-left: 20px; "><button style="width: 11px; height: 15px; margin-right: 5px; background: #40DDB6;"></button>{% blocktrans %}We Are Expertise In{% endblocktrans %}</p> 
+        <h1>{% blocktrans %}We Provide Professional <br>
+            Business Solutions.{% endblocktrans %}</h1>
+    </div>
+    <div style="display: flex; margin-left: 180px; gap: 20px;" class="cards">
+        <div style="background: #F4F4F4; width: 400px; padding: 20px;" class="card1">
+            <h2>{% blocktrans %}Financial <br>
+                Consultancy{% endblocktrans %}</h2>
+                <a style="color: #6B77E5;" href="">{% blocktrans %}Read More{% endblocktrans %}</a>
+                <img style="margin-left: 230px; margin-top: -100px; width: 100px;" src="{% static 'img/photos/Icon (2).png' %}" alt="">
+        </div>
+        <div style="background: #F4F4F4; width: 400px; padding: 20px;" class="card2">
+            <h2>{% blocktrans %}Business<br>
+                Management{% endblocktrans %} </h2>
+                <a style="color: #6B77E5;" href="">{% blocktrans %}Read More{% endblocktrans %}</a>
+                <img style="margin-left: 230px; margin-top: -100px;  width: 100px" src="{% static 'img/photos/Icon (3).png' %}" alt="">
+        </div>
+        <div style="background: #F4F4F4; width: 400px; padding: 20px;" class="card3">
+            <h2>{% blocktrans %}Consultants & <br>
+                program{% endblocktrans %}</h2>
+                <a style="color: #6B77E5;" href="">{% blocktrans %}Read More{% endblocktrans %}</a>
+                <img style="margin-left: 230px; margin-top: -110px;  width: 100px" src="{% static 'img/photos/Icon (4).png' %}" alt="">
+        </div>
+    </div>
+    <div style="display: flex; margin-left: 180px; gap: 20px; margin-top: 20px;" class="cards2">
+        <div style="background: #F4F4F4; width: 400px; padding: 20px;" class="card4">
+            <h2>Company <br>
+                Management</h2>
+                <a style="color: #6B77E5;" href="">{% blocktrans %}Read More{% endblocktrans %}</a>
+                <img style="margin-left: 230px; margin-top: -100px;  width: 100px" src="{% static 'img/photos/Icon (3).png' %}" alt="">
+        </div>
+        <div style="background: #F4F4F4; width: 400px; padding: 20px;" class="card5">
+            <h2>Financial & <br>
+                Insurance jobs</h2>
+                <a style="color: #6B77E5;" href="">{% blocktrans %}Read More{% endblocktrans %}</a>
+                <img style="margin-left: 230px; margin-top: -100px;  width: 100px" src="{% static 'img/photos/Icon (4).png' %}" alt="">
+        </div>
+        <div style="background: #F4F4F4; width: 400px; padding: 20px;" class="card5">
+            <h2>Banking <br>
+                Management</h2>
+                <a style="color: #6B77E5;" href="">{% blocktrans %}Read More{% endblocktrans %}</a>
+                <img style="margin-left: 230px; margin-top: -100px;  width: 100px" src="{% static 'img/photos/Icon (5).png' %}" alt="">
+        </div>
+    </div>
+    <div style="display: flex; margin-left: 230px; gap: 20px; margin-top: 20px;" class="cards3">
+        {% for obj in objects %}
+        <div style="background: #F4F4F4; width: 300px; padding: 20px; " class="card4">
+        <h2 style="width: 100px;">{{ obj.name }}</h2>
+        <a style="color: #6B77E5;" href="">{% blocktrans %}Read More{% endblocktrans %}</a>
+        <img src="{{ obj.image.url }}" alt="{{ obj.title }}" style="width: 100px; margin-left: 200px; margin-top: -800px;">
+    </div>
+    {% endfor %}
+    </div>
+    <div style="background-color: #37393F; width: 1500px; height: 771px; margin-top: 150px; margin-bottom: 100px; " class="Services">
+        <div class="texts">
+            <p style="color: #37393F;">hello      
+            </p>
+            <p style="margin-left: 150px; color: #ffffff;  margin-top: 100px;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #40DDB6;"></button>{% blocktrans %}What we’re offering{% endblocktrans %}</p> 
+        <h1 style="color: #ffffff; margin-left: 150px;">{% blocktrans %}Services we’re providing <br>
+            to our customers{% endblocktrans %}</h1>
+            <p style="color: #ffffff; margin-left: 950px; margin-top: -100px;">{% blocktrans %}Completely synergize resource taxing relationships via premier niche <br> markets. Professionally cultivate one-to-one customer service with <br> service for state of the art customer service.{% endblocktrans %}</p>
+        </div>   
+        <div style="display: flex;" class="cards">
+            <div style="background: #6B77E5; width: 285px; height: 315px; text-align: center; margin-left: 100px; margin-top: 120px;"  class="card1">
+                <a style="color: #40DDB6; font-size: 50px;"><i style=" margin-top: 40px;" class="fa-solid fa-desktop"></i></a>
+                        <h2 style="color: #ffffff;">{% blocktrans %}Product <br>    
+                            development{% endblocktrans %}</h2>
+                        <h5 style="color: #B9B9B9; ">{% blocktrans %}level overviews <br>
+                            proposition. {% endblocktrans %}</h5>
+            </div>
+            <div style="border: 1px solid #7d7d7d; width: 285px; height: 315px; text-align: center; margin-left: 50px; margin-top: 120px;"  class="card2">
+                <a style="color: #40DDB6; font-size: 50px;"><i style="font-size: 40px; margin-top: 40px;" class="fa-solid fa-ruler"></i></a>
+                        <h2 style="color: #ffffff;">{% blocktrans %}UI/UX <br>  
+                            designing{% endblocktrans %}</h2>
+                        <h5 style="color: #B9B9B9; ">{% blocktrans %}level overviews <br>
+                            proposition. {% endblocktrans %}</h5>
+            </div>
+            <div style="border: 1px solid #7d7d7d; width: 285px; height: 315px; text-align: center; margin-left: 50px; margin-top: 120px;"  class="card3">
+                <a style="color: #40DDB6; font-size: 50px;"><i style="margin-top: 40px;" class="fa-solid fa-database"></i></a>
+                        <h2 style="color: #ffffff;">{% blocktrans %}Data <br>
+                            analysis{% endblocktrans %}</h2>
+                        <h5 style="color: #B9B9B9; ">{% blocktrans %}level overviews <br>
+                            proposition. {% endblocktrans %}</h5>
+            </div>
+            <div style="border: 1px solid #7d7d7d; width: 285px; height: 315px; text-align: center; margin-left: 50px; margin-top: 120px;"  class="card4">
+                <a style="color: #40DDB6; font-size: 50px;"><i style="margin-top: 40px;" class="fa-solid fa-file-pen"></i></a>
+                        <h2 style="color: #ffffff;">{% blocktrans %}Content <br>
+                            management{% endblocktrans %}</h2>
+                        <h5 style="color: #B9B9B9; ">{% blocktrans %}level overviews <br>
+                            proposition. {% endblocktrans %}</h5>
+            </div>
+        </div> 
+    </div>
+    <div class="choose">
+        <div class="container">
+            <p style="margin-left: 150px; color: #000000;  margin-top: 100px;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #40DDB6;"></button>{% blocktrans %}What we’re offering{% endblocktrans %}</p> 
+        <h1 style="color: #000000; margin-left: 150px;">{% blocktrans %}Services we’re providing <br>
+            to our customers{% endblocktrans %}</h1>
+            <p style="color: #000000; margin-left: 150px;">{% blocktrans %}Completely synergize resource taxing relationships via premier niche <br> markets. Professionally cultivate one-to-one customer service with <br> service for state of the art customer service.{% endblocktrans %}</p>
+            <div style=" margin-left: 150px;" class="div">
+                                    <button style="background-color: #40DDB6; border: none; width: 27px; height: 27px; border-radius: 50px; margin-top: px;"><i class="fa-solid fa-check"></i></button>
+                                    <p style="margin-left: 30px; margin-top: -25px;">{% blocktrans %}2,800+ Active clients{% endblocktrans %}</p>
+                <p style="margin-left: 20px;">{% blocktrans %}provide a robust synopsis for <br>
+                    high level overviews.{% endblocktrans %}</p>
+            </div>
+            <div style=" margin-left: 150px;" class="div">
+                <button style="background-color: #40DDB6; border: none; width: 27px; height: 27px; border-radius: 50px; margin-top: 12px;"><i class="fa-solid fa-check"></i></button>
+                <p style="margin-left: 30px; margin-top: -25px;">{% blocktrans %}2,800+ Active clients{% endblocktrans %}</p>
+                <p style="margin-left: 20px;">{% blocktrans %}provide a robust synopsis for <br>
+                    high level overviews.{% endblocktrans %}</p>
+            </div>
+            <div style=" margin-left: 400px; margin-top: -235px;" class="div">
+                <button style="background-color: #40DDB6; border: none; width: 27px; height: 27px; border-radius: 50px; margin-top: 12px;"><i class="fa-solid fa-check"></i></button>
+                <p style="margin-left: 30px; margin-top: -25px;">{% blocktrans %}106+ Team members+{% endblocktrans %}</p>
+                <p style="margin-left: 20px;">{% blocktrans %}provide a robust synopsis for <br>
+                    high level overviews.{% endblocktrans %}</p>
+            </div> 
+            <div style="margin-left: 400px; margin-top: 5px;" class="div">
+                <button style="background-color: #40DDB6; border: none; width: 27px; height: 27px; border-radius: 50px; margin-top: 12px;"><i class="fa-solid fa-check"></i></button>
+                <p style="margin-left: 30px; margin-top: -25px;">{% blocktrans %}1,670+ <span style="color: #FFB342;">5 ⭐ stars</span> reviews{% endblocktrans %}</p>
+                <p style="margin-left: 20px;">{% blocktrans %}provide a robust synopsis for <br>
+                    high level overviews.{% endblocktrans %}</p>
+            </div> 
+            <button style="background: #6B77E5; border: none; padding: 15px; margin-left: 150px;margin-bottom: 100px;">{% blocktrans %}Appointment{% endblocktrans %}</button>
+            <div style=" gap: 15px; margin-left: 830px; margin-top: -400px; margin-bottom: 100px;" class="ddd">
+                <div style="background: #F4F4F4; width: 521px; height: 134px;" class="box">
+                    <img style="width: 150px; height: 150px; padding: 32px;" src="{% static 'img/photos/Chart.png' %}" alt="">
+                    <p style="margin-left: 120px; margin-top: -120px;">{% blocktrans %}Clients{% endblocktrans %}</p>
+                    <p style="margin-left: 120px;">{% blocktrans %}Objectively products whereas parallel <br> platforms procedures{% endblocktrans %}</p>
+                </div>
+                <div style="background: #F4F4F4; width: 521px; height: 134px;" class="box2">
+                    <img style="width: 150px; height: 150px; padding: 32px;" src="{% static 'img/photos/Chart (1).png' %}" alt="">
+                    <p style="margin-left: 120px; margin-top: -120px;">{% blocktrans %}Project{% endblocktrans %}</p>
+                    <p style="margin-left: 120px;">{% blocktrans %}Objectively products whereas parallel <br> platforms procedures{% endblocktrans %}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="border-top: 1px solid #000; margin-left: 40px; " class="test">
+        <p style="margin-left: 20px; margin-top: 150px;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #40DDB6;"></button>{% blocktrans %}Testimonial{% endblocktrans %}</p> 
+    <h1 style="width: 400px;">{% blocktrans %}What Our <br>
+        Client Say’s{% endblocktrans %}</h1>
+        <p>{% blocktrans %}Leverage agile frameworks to provide <br> a robust synopsis for high level <br> overviews.Iterative {% endblocktrans %}</p>
+        <div style="display: flex; margin-left: 350px; margin-top: -220px; margin-bottom: 150px;" class="booxx">
+            {% for test in testimonials %}
+            <div style="background: #F6F6F6; width: 350px; margin-right: 10px;" class="boxx1">
+                <img style="margin-left: 30px; width: 100px; border-radius: 50%;" src="{{ test.image.url }}" alt="">
+                <h1 style="margin-left: 150px; margin-top: -100px;">{{ test.name }}</h1>
+                <p style="margin-left: 150px; margin-top: -10px;">{{ test.job }}</p>
+                <i style="margin-left: 150px; margin-top: 0px; color: #FFA722;" class="fa-solid fa-star"></i>
+                <i style="margin-left: 1px; margin-top: 0px; color: #FFA722;" class="fa-solid fa-star"></i>
+                <i style="margin-left: 1px; margin-top: 0px; color: #FFA722;" class="fa-solid fa-star"></i>
+                <i style="margin-left: 1px; margin-top: 0px; color: #FFA722;" class="fa-solid fa-star"></i>
+                <i style="margin-left: 1px; margin-top: 0px; color: #FFA722;" class="fa-solid fa-star-half-stroke"></i>
+                <h4 style="margin-left: 30px; color: #7d7d7d;">{{ test.description }}</h4>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div style="margin-top: 150px; background: #37393F;" class="footer">
+        <div>
+            <div style="border: 1px solid #6C6D72;" class="div">
+                <div style="display: flex; padding: 100px;" class="first">
+                    <h2 style="margin-top: 30px; color: #FFFFFF; margin-left: -30px; ">WhiteCo<span style="color: #40DDB6;">ll</span>ar</h2>
+                    {% for data in datas %}
+                    <button style="background: #4C4D52; width: 68px; height: 68px; border-radius: 50px; border: none;margin-left: 70px;"><i style="color: #40DDB6; font-size: 20px;" class="fa-solid fa-phone"></i></button><p style="color: #FFFFFF; margin-top: 15px; width: 100px;">{% blocktrans %}Call Us{% endblocktrans %}</p><p style="color: #FFFFFF; margin-top: 30px;margin-left: -90px;">{{ data.text }}</p>
+                    {% endfor %}
+                    
+                    {% for email in emails %}
+                    <button style="background: #4C4D52; width: 68px; height: 68px; border-radius: 50px; border: none;margin-left: 200px;"><i style="color: #40DDB6; font-size: 20px;" class="fa-regular fa-envelope"></i></button><p style="color: #FFFFFF; margin-top: 15px; width: 100px;">{% blocktrans %}Mail Us{% endblocktrans %}</p><p style="color: #FFFFFF; margin-top: 30px; margin-left: -90px;">{{ email.email }}</p>
+                    {% endfor %}
+                    
+                    {% for location in locations %}
+                    <button style="background: #4C4D52; width: 68px; height: 68px; border-radius: 50px; border: none;margin-left: 200px;"><i style="color: #40DDB6; font-size: 20px;" class="fa-solid fa-location-dot"></i></button><p style="color: #FFFFFF; margin-top: 10px; width: 100px;">{% blocktrans %}Location{% endblocktrans %}</p><p style="color: #FFFFFF; margin-top: 30px; margin-left: -90px; width: 200px;">{{ location.location }}</p>
+                    {% endfor %}
+                </div>
+                <div style="display: flex;" class="second">
+                    <p style="margin-left: 150px; margin-top: 15px; color: #40DDB6;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #6B77E5; border: none;"></button>{% blocktrans %}Quick Link{% endblocktrans %}</p>
+                    
+                    <p style="margin-left: 200px; margin-top: 15px; color: #40DDB6;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #6B77E5; border: none;"></button>{% blocktrans %}Our Services{% endblocktrans %}</p>
+                    
+                    <p style="margin-left: 200px; margin-top: 15px; color: #40DDB6;"><button style="width: 11px; height: 15px; margin-right: 5px; background: #6B77E5; border: none;"></button>{% blocktrans %}Uitility Page{% endblocktrans %}</p>
+                </div>
+                <div  style="margin-left: 150px; display: flex;">
+                    <a style="color: #FFFFFF;">{% blocktrans %}Home <br> About Us <br> Blog <br>Services <br> Contact{% endblocktrans %}</a> 
+                    
+                    <a style="color: #FFFFFF; margin-left: 230px;">{% blocktrans %}Financial Consulting <br style="color: #40DDB6;"> Business Management <br> Consultant & Programs <br>Company Management <br> Insurance & Finance{% endblocktrans %}</a>
+                     
+                    <a style="color: #FFFFFF; margin-left: 150px;">{% blocktrans %}Style Guide  <br style="color: #40DDB6;"> Licenses <br> Instructions <br>Changelog <br> 404 Page{% endblocktrans %}</a> 
+                    
+                    <form method="POST">
+                        <div  style="background: #474950; margin-left: 110px; width:  479px; height: 235px; margin-bottom: 50px; margin-top: -80px;" class="box">
+                            {% csrf_token %}
+                            <h1 style="color: #FFFFFF; margin-left: 30px;" >{% blocktrans %}Subscribe{% endblocktrans %}</h1>
+                            <p style="color: #FFFFFF; margin-left: 30px;">{% blocktrans %}Join Our Mailing List & to get our news.{% endblocktrans %}</p>
+                            <input style="padding: 20px; width: 300px; margin-left: 20px; margin-top: 20px;" type="email" name="email" placeholder="your email address"><button style="width: 143px; height: 65px; color: #ffffff; background: #6B77E5; " type="submit">{% blocktrans %}Subscribe{% endblocktrans %}</button>
+                        </div>
+                    </form>
+                    </div>
+            </div>
+                <div style="display: flex;" class="third">
+                    <p style="margin-left: 150px; color: #FFFFFF;">Copyright © WhiteCollar | Designed by VictorFlow Templates - Powered by Webflow</p>
+                    
+                    <p style="margin-left: 500px; color: #FFFFFF; margin-top: -10px;">{% blocktrans %}Follow :{% endblocktrans %}<i style="width: 20px; margin-top: 19px; margin-left: 20px;" class="fa-brands fa-instagram"></i>
+                        <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-facebook"></i>
+                        <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-twitter"></i>
+                        <i style="width: 20px; margin-top: 19px;" class="fa-brands fa-pinterest"></i></p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
